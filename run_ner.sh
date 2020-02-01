@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-  python BERT_NER.py\
+pip3 install -r requirements.txt
+
+python3 BERT_NER.py\
     --task_name="NER"  \
     --do_lower_case=False \
     --crf=True \
